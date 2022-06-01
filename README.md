@@ -34,7 +34,7 @@ In this environment, we have multiple different modes of observation.
   Where $\circ$ denotes tuple concatenation, $(ball_x, ball_y)$ are the normalized coordinates of the ball, so that $(0,0)$ is the upper left corner, and $(1,1)$ is the lower right corner. $(velocity_x, velocity_y)$ is the velocity of the ball normalized so that $(-1,1)$ corresponds to the ball moving left and down at the maximum speed allowed, $(1, 0)$ corresponds to moving right at the maximum allowed speed and not moving on the other axis. \newpage \noindent The maximum speed in any one direction is set to half the width of each tile. The tuple on the right side is simply a tuple with a 1 for all the tiles where the light is on, and a zero for all the other tiles. We normalize the position to be between 0 and 1 and velocity to be between -1 and 1, so that all inputs to the model are on a similar scale, instead of having the position be between 0 and the pixel width of the generated image.
 
 ## Using the environments
-The envrionments can be registred in Open AI's Gym [2] using 
+The envrionments follow the same interface as envrionments in Open AI's Gym [2] and can be registred in Gym using 
 ```python
 gym.envs.register(
         "numpad_discrete-v1",
