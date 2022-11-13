@@ -1,4 +1,4 @@
-from rl_thesis.environments.numpad_continuous import Config as ContinuousConfig
+from numpad_gym.numpad_continuous import Config as ContinuousConfig
 
 class Config(ContinuousConfig):
 

@@ -1,6 +1,6 @@
 from unittest import skip
-from rl_thesis.environments.numpad_continuous import Environment as NumpadContinuous
-from rl_thesis.environments.numpad_base import Numpad
+from numpad_gym.numpad_continuous import Environment as NumpadContinuous
+from numpad_gym.numpad_base import Numpad
 import numpy as np
 from .config import Config
 from gym import spaces

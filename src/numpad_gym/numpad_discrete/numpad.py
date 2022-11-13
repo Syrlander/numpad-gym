@@ -2,7 +2,7 @@ from argparse import ArgumentError
 import gym
 from gym import spaces
 import numpy as np
-from rl_thesis.environments.numpad_base import Numpad
+from numpad_gym.numpad_base import Numpad
 from .config import Config
 
 

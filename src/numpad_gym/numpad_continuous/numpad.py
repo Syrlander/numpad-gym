@@ -1,15 +1,10 @@
-# from argparse import ArgumentError
-from argparse import ArgumentError
-from multiprocessing.sharedctypes import Value
-import gym
 from gym import spaces
 import numpy as np
 from PIL import Image
 from pathlib import Path
 import shutil
 
-from torch import Argument
-from rl_thesis.environments.numpad_base import Numpad
+from numpad_gym.numpad_base import Numpad
 from .config import Config
 import warnings
 

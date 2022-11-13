@@ -1,4 +1,4 @@
-from rl_thesis.environments import numpad_base
+from numpad_gym import numpad_base
 
 
 class Config(numpad_base.Config):
